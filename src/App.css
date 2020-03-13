@@ -1,0 +1,67 @@
+
+
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(15, 70, 101);
+  color: white;
+  align-items: center;
+  font-family: 'comic sans MS';
+  padding: 0em 1em;
+  height: 4em;
+  border-radius: 0.4em;
+}
+
+
+.headerStyle p:hover {
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+.headerStyle p {
+  font-size: 2.5em;
+}
+
+.listBorderStyle {
+  display: grid;
+ grid-template-columns: repeat(2, 1fr);
+  box-shadow: 10px 10px 8px #888888;
+  color: rgb(15, 70, 101);
+  background-color: rgb(220, 227, 233);
+}
+
+hr{
+  margin: 0%;
+  height: 4px;
+  background-color:  rgb(15, 70, 101);
+  border: none;
+  border-radius: 0.4em;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before{
+  /* content: "\2022";  */
+  content: "•"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: rgb(47, 59, 116); /* Change the color */
+  font-size: 3rem;
+  vertical-align: -0.15em;
+  font-weight: bolder; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -0.5em;
+}
+
+.listCategoryStyle span{
+  font-size: 1.2em;
+  color: #282c34;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: -0.7em;
+  padding-top: -1.5em;
+}
+
+img {
+  margin: 3.7% auto;
+}

@@ -1,0 +1,15 @@
+span ul li::before{
+    font-size: 2em;
+    font-weight: bolder; /* If you want it to be bold */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: 0.2em;
+    margin-top: -1.4em;
+  }
+
+  .listItemStyle span{
+    font-size: 1em;
+    color: #282c34;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -0.5em;
+    margin-top: -1.5em;
+  }
